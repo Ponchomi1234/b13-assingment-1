@@ -182,13 +182,12 @@ header{
 .brain-container{
     display:flex;
     width: 1360px;
-    margin: 0 auto;
+    
     gap: 60px;
 }
 .brain-content{
    width: 700px;
-   padding-top: 221px;
-   padding-bottom: 101px;
+   
 }
 .brain-content h3{
     font-size: 16px;
@@ -205,7 +204,7 @@ header{
 }
 .list{
     list-style: none;
-    margin-bottom: 1px;
+    
     display: flex;
     flex-direction: column;
 
@@ -219,9 +218,9 @@ header{
 .list li{
     margin-bottom: 0;
 }
+
 .early-section{
     width: 1600px;
-    
 }
 .clear{
     width: 1360px;
@@ -230,6 +229,7 @@ header{
     padding-bottom: 120px;
     margin: 0 auto;
     text-align: center;
+    
 }
 .clear h1{
     font-size: 40px;
@@ -240,6 +240,37 @@ header{
   font-size: 16px;  
   color: #627382;
 }
+.clear button{
+    width: 194px;
+}
+
+    
+.icon{
+    width: 30px;
+    
+    
+}
+.footer h2{
+    font-size: 20px;
+    color: aliceblue;
+}
+.footer{
+    width: 1600px;
+    height: 348px;
+    background-color: #001931;
+    display: flex;
+    justify-content: space-around;
+
+}
+.social{
+    width: 220px;
+    margin-top: 120px;
+}
+.footer-img{
+    width: 140px;
+    margin-top: 120px;
+}
+
 
 
 
