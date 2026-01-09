@@ -179,8 +179,67 @@ header{
     margin-bottom: 16px;
 }
 
+.brain-container{
+    display:flex;
+    width: 1360px;
+    margin: 0 auto;
+    gap: 60px;
+}
+.brain-content{
+   width: 700px;
+   padding-top: 221px;
+   padding-bottom: 101px;
+}
+.brain-content h3{
+    font-size: 16px;
+    color: #469165;
+    font-weight: 500px;
+}
+.brain-content h1{
+    font-size: 48px;
+    color: #001931;
+}
+.brain-content p{
+    font-size: 16px;
+    color: #627382;
+}
+.list{
+    list-style: none;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
 
+    
+    
 
+}
+.list img{
+    width: 20px;
+}
+.list li{
+    margin-bottom: 0;
+}
+.early-section{
+    width: 1600px;
+    
+}
+.clear{
+    width: 1360px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.clear h1{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.clear p{
+  font-size: 16px;  
+  color: #627382;
+}
 
 
 
