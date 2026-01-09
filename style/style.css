@@ -29,12 +29,17 @@ header{
     margin-top: 34px;
     margin-bottom: 34px;
     list-style: none;
-    text-decoration: none;
+     
     
     
     
     
 }
+.font-inter li a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .font-inter button{
     width: 164 px;
     height: 44px;
@@ -45,6 +50,140 @@ header{
     border: none;
     border-radius: 3px;
     padding: 12px;
+    cursor: pointer;
 }
+#banner{
+    width: 1600px;
+    height: 674px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+    background-image: url("../assets/hero-bg.png");
    
+}
+#banner .banner-content{
+    max-width: 1360px;
+    
+    margin: 0 auto;
+   padding-top: 154px;
+   padding-bottom: 180px;
+   padding-left: 341px;
+   padding-right: 341px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+#banner .btn-early{
+    width: 229px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: #469165;
+   background-color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 20px;
+    
+}
+.color{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.color .white{
+    color: white;
+}
+.color .green{
+    color: #30B868;
+}
+#banner p{
+    
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+
+}
+#banner .btn-green{
+    width: 251px;
+    height: 52px;
+    border-radius: 5px;
+}
+#banner .btn-no{
+    width: 198px;
+    height: 52px;
+    margin-left: 16px;
+    border-radius: 5px;
+    background-color:transparent;
+    gap: 10px;
+    border: 1px solid white;
+
+
+
+}
+.note-heading{
+    text-align: center;
+}
+
+    .note-heading h2{
+        font-size: 48px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .note-heading p{
+        font-size: 16px;
+        color: #627382;
+        margin-bottom: 44px;
+    }
+
+.note-card img{
+    width: 60px;
+    background-color:#F95555;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.note-box{
+    display: flex;
+    width: 1360px;
+    margin: 0 auto;
+    margin-top: 44px;
+    justify-content: center;
+    align-items: center;
+}
+.note-card{
+    padding: 24px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 322px;
+    
+    
+    
+}
+.note-card p{
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 21px;
+}
+.note-card h3{
+    text-align: center;
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.logo{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
 
